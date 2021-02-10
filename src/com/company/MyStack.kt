@@ -9,7 +9,7 @@ class MyStack {
     private var queueHelper: Queue<Int> = LinkedList<Int>()
     private var size = 0
 
-    /** Push element x onto stack. */
+    /** Push element x onto stack. ------- */
     fun push(x: Int) {
         queueHelper.add(x)
         size++
